@@ -116,9 +116,17 @@ h2 {
 	margin-left: 25px;
 }
 
-#started {
+.cta {
 	border: 1px solid black;
+	background: white;
 	font-family:Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	padding: 5px;
+	margin: 10px;
+	width: 100px;
+}
+#started {
 	font-weight: 100;
 	font-size: 30px;
 	padding: 8px;
@@ -197,4 +205,60 @@ h2 {
 	width: 875px;
 	border: 1px solid black;
 }
+
+/* Service Page Classes */
+#copyright {
+	text-align: center;
+	margin: 25px;
+	margin-left: 250px;
+	width: 875px;
+	border: 1px solid black;
+}	
+
+.services section .featureBox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top: 25px;
+	width: 1000px;
+	margin-left: 250px;
+}
+
+.services  .featureItem {
+	background: lightgrey;
+	border: 1px solid black;
+	width: 430px;
+	padding: 20px;
 	
+}
+
+.services  .featureItem p {
+	margin-bottom: 25px;
+	
+}
+.services  section p .cta {
+	border-radius: 50%;
+	
+}
+.services .featureBox div h3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	width: 530px;
+}
+
+
+.services .marketingBlurb {
+	font-size: 20px;
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left:250px;
+	width: 1000px;
+}
+
+.services .marketingBlurb p {
+	font-size: 16px;
+}
