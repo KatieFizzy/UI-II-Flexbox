@@ -74,6 +74,8 @@ h1, h2, h3, h4, h5 {
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
+	width: 1000px;
+	margin-left: 250px;
 }
 
 #navBar nav {
@@ -203,25 +205,33 @@ h2 {
 	margin: 25px;
 	margin-left: 150px;
 	width: 875px;
-	border: 1px solid black;
+	
 }
 
 /* Service Page Classes */
+
+
 #copyright {
 	text-align: center;
 	margin: 25px;
 	margin-left: 250px;
-	width: 875px;
-	border: 1px solid black;
+	width: 1000px;
+	
 }	
-
+#featureBoxSection {
+	width:1000px;
+	margin-left: 250px;
+	padding-top:30px;
+	border-top: 2px solid black;
+	padding-bottom: 60px;
+	border-bottom: 2px solid black;
+}
 .services section .featureBox {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	padding-top: 25px;
 	width: 1000px;
-	margin-left: 250px;
 }
 
 .services  .featureItem {
@@ -236,14 +246,22 @@ h2 {
 	margin-bottom: 25px;
 	
 }
-.services  section p .cta {
-	border-radius: 50%;
-	
+
+.ctaRounded {
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	padding: 5px;
+	margin: 10px;
+	width: 100px;
 }
 .services .featureBox div h3 {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: space-evesnly;
 	align-items: flex-start;
 	width: 530px;
 }
@@ -251,14 +269,52 @@ h2 {
 
 .services .marketingBlurb {
 	font-size: 20px;
-	margin: 30px;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	margin-left:250px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 1000px;
+}
+
+.services #servicesFacts {
+	font-size: 20px;
+	margin: 30px;
+	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	margin-left:250px;
 	width: 1000px;
 }
 
-.services .marketingBlurb p {
+.services #servicesIntro p {
+	width: 1000px;
+	font-size:16px;
+	
+}
+
+.services #servicesIntro h2 {
+	margin-top: 25px;
+
+}
+
+.services #servicesFactsPara {
 	font-size: 16px;
+	width: 400px;
+	margin-right: 25px;
+}
+
+.services .unorderedLists {
+	list-style-type: square;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	line-height: 24px;
+
+}
+
+#services-info-img {
+	margin-left: 50px;
 }
